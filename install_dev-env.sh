@@ -1,6 +1,7 @@
 sudo apt-get -y install git 
 sudo apt-get -y install kdiff3
 sudo apt-get -y install mono-complete
+sudo apt-get -y install ssh-askpass-fullscreen
 cd 
 cd Downloads
 wget https://github.com/gitextensions/gitextensions/releases/download/v2.51.01/GitExtensions-2.51.01-Mono.zip
