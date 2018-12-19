@@ -1,3 +1,4 @@
+#!/bin/bash
 BASEDIR=$(dirname "$0")'/install_gitextensions.sh'
 echo $BASEDIR
 sudo apt-get -y install git 

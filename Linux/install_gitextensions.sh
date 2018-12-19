@@ -1,3 +1,4 @@
+#!/bin/bash
 cd 
 cd Downloads
 wget https://github.com/gitextensions/gitextensions/releases/download/v2.51.01/GitExtensions-2.51.01-Mono.zip
