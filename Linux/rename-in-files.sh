@@ -1,7 +1,13 @@
-#!/bin/bash
-first='sdg'
-second='f2d'
-solution=$(sed "s/$first/$second/g" test.txt)
-echo "$solution" > temp.txt
-cat temp.txt > test.txt
-rm temp.txt
+#!/bin/bash 
+# To use script do: ./rename-in-files.sh Lucy Sara txt
+replace=$1
+with=$2
+solution=''
+extension=$3
+for f in $(find . -name "*.$extension");
+ do solution=$(sed "s/$replace/$with/g" $f)
+ echo "$solution" > temp.txt 
+ cat temp.txt > $f 
+ rm temp.txt;
+ done
+
